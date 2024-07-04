@@ -1,0 +1,88 @@
+// :root {
+//     --my-custom-color: #f99;
+// }
+
+$my-custom-color: #f99;
+$font-family: "Open Sans", sans-serif;
+$secondary-font: "IBM Plex Mono", monospace;
+
+// this is a commented line which gets removed when compiled
+h1 {
+  // color: var(--my-custom-color);
+
+  color: $my-custom-color;
+
+  //   font-size: 5em;
+  //   font-family: $font-family;
+  //   font-style: italic;
+  //   font-weight: 700;
+
+  font: {
+    size: 5em;
+    family: $font-family;
+    style: italic;
+    weight: 700;
+  }
+
+  //   text-align: center;
+  //   text-transform: capitalize;
+  //   text-decoration: underline;
+
+  text : {
+    align: center;
+    transform: capitalize;
+    decoration: underline;
+  }
+}
+
+section.parent {
+  //   border-color: rgb(28, 228, 17);
+  //   border-style: solid;
+  //   border-radius: 10px;
+  //   border-width: 10px;
+
+  border : {
+    color: rgb(28, 228, 17);
+    style: solid;
+    radius: 10px;
+    width: 10px;
+  }
+
+  figure {
+    border: 10px solid #f11;
+    figcaption {
+      color: rgb(255, 0, 187);
+      font-size: 3em;
+    }
+    img {
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+  }
+  button {
+    width: 100px;
+    height: 40px;
+    background-color: #16d8e6;
+    &:hover {
+      background-color: #67e910;
+    }
+  }
+}
+
+// section.parent {
+//     border: 2px solid;
+// }
+
+// section.parent figure {
+//     border: 10px solid #f11;
+// }
+
+// .parent button {
+//     background-color: #16d8e6;
+//     width: 100px;
+//     height: 40px;
+// }
+
+// .parent button:hover {
+//     background-color: #67e910;
+// }

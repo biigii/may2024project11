@@ -1,0 +1,36 @@
+h1 {
+  color: #f99;
+  font-size: 5em;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+section.parent {
+  border-color: rgb(28, 228, 17);
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 10px;
+}
+section.parent figure {
+  border: 10px solid #f11;
+}
+section.parent figure figcaption {
+  color: rgb(255, 0, 187);
+  font-size: 3em;
+}
+section.parent figure img {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+section.parent button {
+  width: 100px;
+  height: 40px;
+  background-color: #16d8e6;
+}
+section.parent button:hover {
+  background-color: #67e910;
+}/*# sourceMappingURL=main.css.map */
